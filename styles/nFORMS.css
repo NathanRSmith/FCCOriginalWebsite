@@ -1,0 +1,86 @@
+<style>
+BODY{background:#fefefe;}
+.input
+{
+    border: solid 1px #cac8c5;
+    background: #ffffff;
+    color: #1b1605;
+    font-family: arial;
+    font-size: 9pt;
+    height:22px;
+}
+.inputNoHeight
+{
+    border: solid 1px #cac8c5;
+    background: #ffffff;
+    color: #1b1605;
+    font-family: arial;
+    font-size: 9pt;
+}
+.tall50 {height:50px;}
+.tall100 {height:100px;}
+
+.inputHalf {width:200px;}
+.inputSide {width:195px;}
+.inputThree {width:131px;}
+.inputThreeMid {width:131px;margin-left:4px;}
+.inputTwoThird {width:300px;}
+.inputOneThird {width:90px;}
+.divFormTitle {clear:both;color:#1b1605;font-family:arial;font-size:13pt;text-align:left;margin-bottom:7px;}
+
+.formCenter {text-align:center;width:100%;}
+.formLeft {text-align:left;width:435px;padding:10px 0px 0px 17px;}
+.formBox {width:400px;}
+
+.inputLong {width:400px;}
+.divFormTextSide {font-family:Arial;font-size:9pt;color:#1b1605;margin-top:10px;margin-bottom:3px;text-align:left;width:200px}
+.divFormTextSideThree {font-family:Arial;font-size:9pt;color:#1b1605;margin-top:10px;margin-bottom:3px;text-align:left;width:132px}
+.divFormText {clear:both;font-family:Arial;font-size:9pt;color:#1b1605;margin-top:10px;margin-bottom:3px;text-align:left;}
+.divFormNewLine {height:1px;clear:both;font-family:Arial;font-size:1pt;}
+.divFormTextTwoThird {font-family:Arial;font-size:9pt;color:#1b1605;margin-top:10px;margin-bottom:3px;text-align:left;width:300px}
+.divFormTextOneThird {font-family:Arial;font-size:9pt;color:#1b1605;margin-top:10px;margin-bottom:3px;text-align:left;width:90px}
+.textCenter {text-align:center;}
+.clearLeft {clear:left;}
+.clearRight {clear:right;}
+.clearBoth {clear:both;}
+.floatRight {float:right;}
+.floatLeft {float:left;}
+.helpText {font-family:Arial;font-size:8pt;color:#1b1605;margin-left:6px;font-style:italic;}
+.errorText {color:Red;}
+
+    .reviewDiv {
+		background-color:#ffffff; 
+		width:400px;
+		height:300px;
+		border:solid 1px #cac8c5;
+		overflow:auto;
+		visibility:visible;
+		display: block;
+		margin-bottom:10px;
+		scrollbar-base-color: #f2f2f2;
+		scrollbar-arrow-color: #888888;
+		scrollbar-3dlight-color: #f2f2f2;
+		scrollbar-darkshadow-color: #f2f2f2;
+		scrollbar-face-color: #f2f2f2;
+		scrollbar-highlight-color: #f2f2f2;
+		scrollbar-shadow-color: #f2f2f2;
+		scrollbar-track-color: #ffffff
+    }
+    .reviewTable
+    {
+        vertical-align:top;
+        width:380px; 
+        height:290px; 
+        background: #ffffff;
+        color: #1b1605;
+        font-family: arial;
+        font-size: 9pt;	    
+	    scrollbar-face-color: #cac8c5 !important;
+	    scrollbar-shadow-color: #cac8c5 !important;
+	    scrollbar-highlight-color: #cac8c5 !important;
+	    scrollbar-3dlight-color: #cac8c5 !important;
+	    scrollbar-darkshadow-color: #cac8c5 !important;
+	    scrollbar-track-color: #eeeeee !important;
+	    scrollbar-arrow-color: #000000 !important;
+    }
+</style>

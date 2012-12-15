@@ -1,0 +1,258 @@
+<STYLE> 
+<!-- 
+A.noline:link {color:CCCC99; font-family:Arial; text-decoration:none;} 
+A.noline:visited {color:CCCC99; font-family:Arial;text-decoration:none;} 
+A.noline:active {color:CCCC99; font-family:Arial;text-decoration:none;}
+A.noline:hover {color:CCCC99; font-family:Arial;text-decoration:none;} 
+
+A.nolinestyles:link {color:#663333; text-decoration: none; font-family:Arial; font-size: 13px;} 
+A.nolinestyles:visited {color:#663333;text-decoration: none; font-family:Arial; font-size: 13px;} 
+A.nolinestyles:active {color:#663333;text-decoration: none; font-family:Arial; font-size: 13px;}
+A.nolinestyles:hover {color:#4A676B;text-decoration: none; font-family:Arial; font-size: 13px;} 
+
+A.subnolinestyles:link {color:#663333; font-weight: bold; font-family:Arial; font-size:10px;} 
+A.subnolinestyles:visited {color:#663333;font-weight: bold; font-family:Arial; font-size:10px;} 
+A.subnolinestyles:active {color:#663333;font-weight: bold; font-family:Arial; font-size:10px;}
+A.subnolinestyles:hover {color:#4A676B;font-weight: bold; font-family:Arial; font-size:10px;} 
+
+A.subnolinestyles2:link {color:#663333; text-decoration: none; font-family:Arial; font-size:10px;} 
+A.subnolinestyles2:visited {color:#663333;text-decoration: none; font-family:Arial; font-size:10px;} 
+A.subnolinestyles2:active {color:#663333;text-decoration: none; font-family:Arial; font-size:10px;}
+A.subnolinestyles2:hover {color:#4A676B;text-decoration: none; font-family:Arial; font-size:10px;} 
+
+
+A.topmenu:link {color:#663333; font-family:Arial; font-size:9pt;} 
+A.topmenu:visited {color:#663333; font-family:Arial; font-size:9pt;} 
+A.topmenu:active {color:#663333; font-family:Arial; font-size:9pt;}
+A.topmenu:hover {color:#4A676B; font-family:Arial; font-size:9pt;} 
+
+A.topmenu_subcategory:link {color:#435B7D; font-family:Arial; font-size:8pt;font-weight:bold;} 
+A.topmenu_subcategory:visited {color:#435B7D; font-family:Arial; font-size:8pt;font-weight:bold;} 
+A.topmenu_subcategory:active {color:#435B7D; font-family:Arial; font-size:8pt;font-weight:bold;}
+A.topmenu_subcategory:hover {color:#444444; font-family:Arial; font-size:8pt;font-weight:bold;} 
+
+A.images:link {color:none; text-decoration:none; font-family:Arial;} 
+A.images:visited {color:none;text-decoration:none; font-family:Arial;} 
+A.images:active {color:none;text-decoration:none; font-family:Arial;}
+A.images:hover {color:none;text-decoration:none; font-family:Arial;} 
+
+A:link {color:#663333; text-decoration: none; font-family:Arial;} 
+A:visited {color:#663333;text-decoration: none; font-family:Arial;} 
+A:active {color:#663333;text-decoration: none; font-family:Arial;}
+A:hover {color:#ffffff;text-decoration: none; font-family:Arial;} 
+
+p.bordr
+{
+border-color: none none none none;
+border-style: none none none none;
+border-width: 0px 0px 0px 0px;
+}
+
+.carthr
+{
+    border-width:1px;
+    border-color:#eeeeee;
+    width:95%;  
+}
+
+.carthrbottom
+{
+    border-width:1px;
+    border-color:#eeeeee;
+    width:97%;  
+}
+
+.carthrdetails
+{
+    border-width:1px;
+    border-color:#eeeeee;
+    width:100%;  
+}
+
+.detailbackground
+{
+    border: solid 1px #eeeeee;
+    background-color: #B4A494;   
+    height: 266;
+    vertical-align: top;
+}
+
+.cartborder
+{
+BORDER-COLOR: #663333;
+border-style: solid;
+border-width: 1px;
+}
+
+
+A.sitemenu:link     {padding-left:.1em;text-decoration: none; color: #444444; font-size:8pt; font-family: Arial, Helvetica, sans-serif; line-height: 8.75pt; font-weight: 400;}
+A.sitemenu:visited  {padding-left:.1em;text-decoration: none; color: #444444; font-size:8pt; font-family: Arial, Helvetica, sans-serif; line-height: 8.75pt; font-weight: 400;}
+A.sitemenu:active   {padding-left:.1em;text-decoration: none; color: #444444; font-size:8pt; font-family: Arial, Helvetica, sans-serif; line-height: 8.75pt; font-weight: 400;}
+A.sitemenu:hover    {padding-left:.1em;text-decoration: none; color: #4A676B; font-size:8pt; font-family: Arial, Helvetica, sans-serif; line-height: 8.75pt; font-weight: 400;}
+
+A.sitemenuCURRENT:link {text-decoration: none; color: #444444; font-size:7.8pt; font-family: Arial, Helvetica, sans-serif; line-height: 8.75pt; font-weight: bold;}
+A.sitemenuCURRENT:visited {text-decoration: none; color: #444444; font-size:7.8pt; font-family: Arial, Helvetica, sans-serif; line-height: 8.75pt; font-weight: bold;}
+A.sitemenuCURRENT:active  {text-decoration: none; color: #444444; font-size:7.8pt; font-family: Arial, Helvetica, sans-serif; line-height: 8.75pt; font-weight: bold;}
+A.sitemenuCURRENT:hover   {text-decoration: none; color: #4A676B; font-size:7.8pt; font-family: Arial, Helvetica, sans-serif; line-height: 8.75pt; font-weight: bold;}
+
+A.category:link {color:#444444; text-decoration: none; font-family:Arial; font-size: 9pt; font-weight: 300;} 
+A.category:visited {color:#444444;text-decoration: none; font-family:Arial; font-size: 9pt; font-weight: 300;} 
+A.category:active {color:#444444;text-decoration: none; font-family:Arial; font-size: 9pt; font-weight: 300;}
+A.category:hover {color:#4A676B;text-decoration: none; font-family:Arial; font-size: 9pt; font-weight: 300;} 
+
+A.collection:link {color:#444444; text-decoration: none; font-family:Arial; font-size: 9pt; font-weight: 300;} 
+A.collection:visited {color:#444444;text-decoration: none; font-family:Arial; font-size: 9pt; font-weight: 300;} 
+A.collection:active {color:#444444;text-decoration: none; font-family:Arial; font-size: 9pt; font-weight: 300;}
+A.collection:hover {color:#4A676B;text-decoration: none; font-family:Arial; font-size: 9pt; font-weight: 300;}
+
+A.category_label:link {font-size: 9pt; text-transform:capitalize; color:#444444; font-family: arial; font-weight: bold;} 
+A.category_label:visited {font-size: 9pt; text-transform:capitalize; color:#444444; font-family: arial; font-weight: bold; } 
+A.category_label:active {font-size: 9pt; text-transform:capitalize; color:#444444; font-family: arial; font-weight: bold; }
+A.category_label:hover {font-size: 9pt; text-transform:capitalize; color:#4A676B; font-family: arial; font-weight: bold; } 
+
+A.collection_label:link {font-size: 9pt; text-transform:capitalize; color:#444444; font-family: arial; font-weight: bold;} 
+A.collection_label:visited {font-size: 9pt; text-transform:capitalize; color:#444444; font-family: arial; font-weight: bold; } 
+A.collection_label:active {font-size: 9pt; text-transform:capitalize; color:#444444; font-family: arial; font-weight: bold; }
+A.collection_label:hover {font-size: 9pt; text-transform:capitalize; color:#4A676B; font-family: arial; font-weight: bold; } 
+
+A.subcategory:link {color:#444444; font-weight: bold; font-family:Arial; font-size:8pt;} 
+A.subcategory:visited {color:#444444;font-weight: bold; font-family:Arial; font-size:8pt;} 
+A.subcategory:active {color:#444444;font-weight: bold; font-family:Arial; font-size:8pt;}
+A.subcategory:hover {color:#4A676B;font-weight: bold; font-family:Arial; font-size:8pt;} 
+
+A.cartprice:link {color:#BCBCBC; font-weight: bold; font-family:Arial; font-size:8pt;} 
+A.cartprice:visited {color:#BCBCBC;font-weight: bold; font-family:Arial; font-size:8pt;} 
+A.cartprice:active {color:#BCBCBC;font-weight: bold; font-family:Arial; font-size:8pt;}
+A.cartprice:hover {color:#444444;font-weight: bold; font-family:Arial; font-size:8pt;} 
+
+A.recentitems:link {color:#444444; text-decoration: none; font-family:Arial; font-size:8pt;} 
+A.recentitems:visited {color:#444444;text-decoration: none; font-family:Arial; font-size:8pt;} 
+A.recentitems:active {color:#444444;text-decoration: none; font-family:Arial; font-size:8pt;}
+A.recentitems:hover {color:#4A676B;text-decoration: none; font-family:Arial; font-size:8pt;} 
+
+A.additionalShipping:link {color:#444444; font-weight: 400; font-family:Arial; font-size:8pt;} 
+A.additionalShipping:visited {color:#444444;font-weight: 400; font-family:Arial; font-size:8pt;} 
+A.additionalShipping:active {color:#444444;font-weight: 400; font-family:Arial; font-size:8pt;}
+A.additionalShipping:hover {color:#4A676B;font-weight: 400; font-family:Arial; font-size:8pt;} 
+
+a.numberOfProductsCurrent:link{font-family:Arial;font-size:8pt;color:#444444;font-weight:bold;}
+a.numberOfProductsCurrent:visited{font-family:Arial;font-size:8pt;color:#444444;font-weight:bold;}
+a.numberOfProductsCurrent:active{font-family:Arial;font-size:8pt;color:#444444;font-weight:bold;}
+a.numberOfProductsCurrent:hover{font-family:Arial;font-size:8pt;color:#444444;font-weight:bold;}
+
+a.numberOfProducts:link{font-family:Arial;font-size:8pt;color:#444444;}
+a.numberOfProducts:visited{font-family:Arial;font-size:8pt;color:#444444;}
+a.numberOfProducts:active{font-family:Arial;font-size:8pt;color:#444444;}
+a.numberOfProducts:hover{font-family:Arial;font-size:8pt;color:#444444;}
+
+.menutext {font-size: 11px; text-transform:capitalize; color:#663333; font-family: arial;}
+.menutextsm {font-size: 10px; text-transform:capitalize; color:#663333; font-family: arial;}
+.menutext2 {font-size: 13px; color:#663333; font-family: arial;}
+.textlook  {color: #FFFFFF; font-weight: bold; background-color: #98836E; width:250; border: solid #98836E; font-family:Arial;}
+
+.subcatspace {font-family:Arial; font-size:9pt;}
+.maincatspace {font-family:Arial; font-size:9pt; font-weight: bold;}
+
+
+.order  {cursor: hand; border-top: solid 1px #eeeeee; border-left: solid 1px #B4A494; border-right: solid 1px #B4A494; border-bottom: solid 1px #B4A494; text-transform: uppercase; font-size: 10px; font-family: arial; color: #663333; background: #B4A494; width: 106; height:25; padding-top:5px;}
+.order2 {cursor: hand; border: thin dashed #98836E; border-width: 2px; font-weight: bold; font-size: 10pt; font-family: arial; color: #663333; background: #C5B9A9; width: 244;}
+.order3 {cursor: hand; border: thin solid #eeeeee; border-width: 1px; font-family: arial; color: #663333; background: #B4A494; width: 242; text-transform: uppercase;font-size: 12px; font-family: arial; height:25px; text-align:center; padding-top:4px;}
+.gobutton {font-size:8pt;font-family:arial;font-weight:600;width:35;height:25;cursor:pointer;border: solid 1px #444444;color:#444444;text-align:center;padding-top:4px;}
+.gotext {font-size:8pt;font-family:arial;font-weight:300;width:35;height:25;cursor:none;border: solid 1px #444444;color:#444444;text-align:center;padding-top:4px;}
+.pagebox {font-size:8pt;font-family:arial;width:50;height:25;border: solid 1px #444444;text-align:center;padding-top:4px; cursor:none;color:#000000;}
+
+.image1 {border-style: solid; border:solid 1px #888888;}
+.image2 {border-color:#4A676B; border-style: solid; border-width:1px; }
+.image3 {border-color:#663333; border-style: solid;}
+.addtocartimage {border:none;cursor:pointer;}
+
+.imagecategory {border-color:#C5B9A9; border-style: solid; border-width:10px;}
+.imagedescription_middle { font-family:Arial;border-color:#eeeeee; border-style: solid; border-width:1px; border-right-width:0px; background-color:#B4A494;}
+.imagedescription_no_right { font-family:Arial;width:106px; height:180px; border-color:#eeeeee; border-style: solid; border-width:1px; border-right-width:0px; background-color:#eeeeee;}
+.imagedescription_no_left { font-family:Arial;border-color:#eeeeee; border-style: solid; border-width:1px; border-left-width:0px; background-color:#B4A494;}
+.imagedescription { font-family:Arial;border-color:#ffffff; border-style: solid; border-width:1px; background-color:#ffffff;}
+
+.productprice {color:#444444; font-family: arial; font-weight: bold; font-size:8pt;} 
+.productname {font-size: 8pt; text-align:right; text-transform:capitalize; color:#444444; font-family: arial; font-weight:bold;}
+
+.detailproductname{color:#444444; font-family: arial; font-weight: bold; font-size:9pt;}
+.detailprice{color:#444444; font-family: arial; font-weight: bold; font-size: 9pt;}
+.detailproductdescription {font-size: 8pt; color:#888888; font-family: arial;}
+.detailproductoutofstock {font-size: 8pt; color:#444444; font-family: arial;}
+.detailoptionmessage{color:#444444; font-family: arial; font-weight: bold; font-size:9pt; text-align:center;width:250px;}
+
+.optionselect{padding-left:3px; font-family:Arial; font-size:8pt; font-color: #444444;width:253;}
+
+.productinfo {color:#444444; font-family: Arial; font-weight: bold; font-size:12px;} 
+.description {font-size: 11px; color:#444444; font-family: Arial;}
+.menu_label {font-size: 12px; text-transform:capitalize; color:#444444; font-family: arial; font-weight: bold;}
+.menu_label_recent {font-size: 9pt; text-transform:capitalize; color:#444444; font-family: arial; font-weight: bold;}
+
+.itemtextsm {font-size: 9px; color:#444444; font-family: arial;}
+
+.detail{color:#444444; font-family: arial; font-weight: bold; font-size: 13px;}
+.detailpad{padding-left:3px; font-family:Arial;}
+.page_menu_text {font-size: 11px; color:#000000; font-family: Arial;}
+.outofstock {font-size: 10px; color:#663333; font-family: Arial; line-height:12px;}
+.pagetext{font-family:Arial;font-size:8pt;color:#444444;font-weight:bold;}
+
+
+BODY 
+{
+    font-family: Arial;
+}
+
+.maintable 
+{
+    border: solid 1px #000000;   
+    font-family:Arial;
+}
+a {cursor: pointer; font-family:Arial;} 
+
+
+/* options */ 
+    .optionDiv {float:right;overflow:hidden;width:250px;text-align:right;float:right;padding-top:8px;border:none;border-color:#cccccc #cccccc #cccccc #cccccc;}
+    .div {cursor:pointer;margin-bottom:0px;cursor:pointer;background-color:#EBEDED;width:250px;height:20px;border:solid 1px #cccccc;overflow:hidden;visibility:visible;margin-top:3px;margin-left:0px;float:right;text-align:left;}
+    .divx {cursor:pointer;background-color:#ffffff; position:absolute; width:250px;height:20px;border:solid 1px #cccccc;overflow:hidden;visibility:hidden;}
+    .divxover {cursor:pointer;background-color:#ffffff; position:absolute; width:275;margin-left:-15px;margin-top:-50px; height:125px;border:solid 1px #cccccc;overflow:auto;visibility:visible;display: block;scrollbar-base-color: #f2f2f2;scrollbar-arrow-color: #888888;scrollbar-3dlight-color: #f2f2f2;scrollbar-darkshadow-color: #f2f2f2;scrollbar-face-color: #f2f2f2;scrollbar-highlight-color: #f2f2f2;scrollbar-shadow-color: #f2f2f2;scrollbar-track-color: #ffffff}
+    .tablex { cursor:pointer;font-family:arial;font-size:8pt;color:#444444;width:100%;text-align:left;}
+    .trxshort{ border:solid 1px #ffffff; border-right:solid 1px #cccccc; float:left;cursor:pointer;background-color:#ffffff; width:90%;font-family:arial;font-size:8pt;color:#444444;}
+    .trx    {cursor:pointer;background-color:#ffffff;border:solid 1px #ffffff;width:100%;font-family:arial;font-size:8pt;color:#444444;}
+	.trxover{ cursor:pointer;background-color:#f8f8f8;border:solid 1px #cccccc;width:100%;font-family:arial;font-size:8pt;color:#444444;}
+    .mainOptionDiv{ border:solid 0px #cccccc; text-align:left;background-color:#ffffff;margin-top:8px;padding-right:0px;padding-bottom:0px;}
+    .mainOptionDivEmpty{ background-image: url(file:///S|/PAGES/studebakermuseum/newsite/include/%27images/ribbonbkgrnd2.jpg%27); background-repeat:no-repeat;float:right;width:186;height:97;border:solid 0px #cccccc; text-align:left;background-color:#ffffff;margin-top:8px;padding-right:0px;}
+    .optionDiv {float:right;overflow:hidden;width:250;text-align:right;float:right;padding-top:8px;border:none;border-color:#cccccc #cccccc #cccccc #cccccc;}
+    .optionTable {border:solid 1px #cccccc;text-align:center;background-color:#f8f8f8;}
+    .option {width:250px;font-family:Arial;font-size:8pt;font-color:#444444;background-color:#fcfcfc;border:solid 1px #cccccc;}
+/***************************************/
+
+
+#dropmenudiv{
+position:absolute;
+background-color: #c8c8c8;
+color: #444444;
+border:1px solid #336699;
+/*border-left:none;*/
+font:8pt arial;
+line-height:10pt;
+z-index:100;
+padding-bottom:2px;
+}
+
+#dropmenudiv a{
+width: 170;
+display: block;
+text-indent: 3px;
+border-bottom: 0px solid black;
+padding: 2px 2px;
+text-decoration: none;
+color: #444444;
+}
+
+#dropmenudiv a:hover{ /*hover background color*/
+background-color: #dddddd;
+}
+
+--> 
+</STYLE> 
+

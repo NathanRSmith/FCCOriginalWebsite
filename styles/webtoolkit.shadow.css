@@ -1,0 +1,15 @@
+#dropshadow-container{
+	position: relative;
+	left: 3px;
+	top: 3px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	background-image: url('../images/50black.png');
+}
+#dropshadow-container .container {
+	position: relative;
+	left: -4px;
+	top: -4px;
+}
+	#dropshadow-container .container {
+	}

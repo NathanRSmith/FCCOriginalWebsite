@@ -1,0 +1,5 @@
+<% option explicit %>
+<%
+dim TableName
+%>
+

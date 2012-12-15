@@ -1,0 +1,93 @@
+<style type="text/css">
+input
+{
+    border: solid 1px #dddddd;
+    background: #ffffff;
+    color: #616161;
+    font-family: arial;
+    font-size: 10pt;
+
+}
+
+.form_text
+{
+    color: #616161;
+    font-family: arial;
+    font-size: 9pt    
+}
+
+.form_text_small
+{
+    color: #616161;
+    font-family: arial;
+    font-size: 8pt;
+}
+
+select
+{
+    border: solid 1px #dddddd;
+    background: #ffffff;
+    color: #616161;
+    font-family: arial;
+    font-size: 10pt;
+	scrollbar-face-color: gray !important;
+	scrollbar-shadow-color: gray !important;
+	scrollbar-highlight-color: gray !important;
+	scrollbar-3dlight-color: gray !important;
+	scrollbar-darkshadow-color: gray !important;
+	scrollbar-track-color: silver !important;
+	scrollbar-arrow-color: black !important;
+
+}
+textarea
+{
+    border: solid 1px #dddddd; 
+    color: #616161;
+    font-family: arial; 
+    font-size: 9pt;
+	padding: 3px 3px 3px 3px;
+	scrollbar-face-color: gray !important;
+	scrollbar-shadow-color: gray !important;
+	scrollbar-highlight-color: gray !important;
+	scrollbar-3dlight-color: gray !important;
+	scrollbar-darkshadow-color: gray !important;
+	scrollbar-track-color: silver !important;
+	scrollbar-arrow-color: black !important;
+}
+.pseudo_button
+{
+    border: solid 2px #eeeeee;
+    background: #dddddd;
+    color: #616161;
+    font-family: arial;
+    font-size: 8pt;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.pseudo_button_on
+{
+    border: solid 2px #ffffff;
+    background: #dddddd;
+    color: #616161;
+    font-family: arial;
+    font-size: 8pt;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.pseudo_button_click
+{
+    border: solid 2px #ffffff;
+    background: #eeeeee;
+    color: #9c9c9c;
+    font-family: arial;
+    font-size: 8pt;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+</style>
